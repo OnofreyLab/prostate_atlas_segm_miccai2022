@@ -15,6 +15,8 @@ In addition to providing significantly improved segmentation performance, this h
 We validate our approach using an external test dataset and demonstrate Dice similarity coefficient values (mean $\pm $ SD) of 0.91 $\pm $ 0.05 for the CG and 0.77 $\pm $ 0.16 for the PZ that significantly improves upon the baseline segmentation results without the atlas.
 
 
+![Example Segmentation Results](/resources/images/SegmentationExamples.png "CG and PZ segmentation results.")
+
 ## Author information
 
 **Affiliations**
