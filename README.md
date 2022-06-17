@@ -1,6 +1,6 @@
 # Atlas-based Semantic Segmentation of Prostate Zones - MICCAI 2022
 
-Jiazhen Zhang<sup>1</sup>; Rajesh Venkataraman<sup>2</sup>, Ph.D.; Lawrence H. Staib<sup>1,3,4</sup>, Ph.D.; John A. Onofrey<sup>1,2,4</sup>, Ph.D.
+Jiazhen Zhang<sup>1</sup>; Rajesh Venkataraman<sup>5</sup>, Ph.D.; Lawrence H. Staib<sup>1,3,4</sup>, Ph.D.; John A. Onofrey<sup>1,2,4</sup>, Ph.D.
 
 [Cite this article](#cite-this-article)
 to do
