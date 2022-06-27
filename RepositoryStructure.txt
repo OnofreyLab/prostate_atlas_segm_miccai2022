@@ -1,0 +1,34 @@
+.
+repo
+├── notebook			                
+|   ├── atlas_central_gland.ipynb                         # construct central gland (CG) atlas
+|   ├── CG_PZ_segm_baseline.ipynb                         # baseline without whole gland (WG) mask  
+|   ├── CG_segm_masked_resized_full_ce.ipynb              # baseline with WG mask  
+|   ├── CG_segm_masked_resized_full_ce-atlas.ipynb 		  # proposed Atlas-based Segmentation
+|   ├── CG_segm_masked_resized_full_ce-atlas_woMask.ipynb # proposed Atlas-based Segmentation 
+|   |														without WG as the second channel
+|   ├── Results_wMask.ipynb                               # summarize quantitative results
+|   ├── segmplot.py                         			  # contour ploting util
+|   ├── visualization.py                        		  # evaluation util
+|   └── ...  
+|
+├── resources                
+|   ├── cg_atlas # contain CG atlas
+|   ├── data 	 # contain input data file structure
+|   ├── model
+|       ├── baseline_ce 							# saved model of CG_PZ_segm_baseline.ipynb
+|       ├── gland_mask_resized_full_ce 				# saved model of CG_segm_masked_resized_full_ce.ipynb
+|       ├── gland_mask_resized_full_ce_atlas 		# saved model of CG_segm_masked_resized_full_ce-atlas.ipynb
+|       ├── gland_mask_resized_full_ce_atlas_womask # saved model of 
+|   	|											  CG_segm_masked_resized_full_ce-atlas_woMask.ipynb
+|   	└── ... 
+|   └── ... 
+|
+├── results                 
+|   ├── csv 								 # contain quantitative results
+|   ├── plot 								 # contain figures shown in paper
+|   ├── boxplot.pdf 						 # box plot of quantitative results
+|   ├── lambd_Prostate3T-01-0008_inter1s.gif # animation of segmentation for different lambda
+|   └── ... 
+├── environment.yml # environment and dependencies
+└── ...  
