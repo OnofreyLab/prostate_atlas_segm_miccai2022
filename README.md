@@ -12,10 +12,17 @@ Of particular interest is segmenting the prostate into two regions of interest: 
 In this paper, we propose to integrate an anatomical atlas of prostate zone shape into a deep learning semantic segmentation framework to segment the CG and PZ in T2-weighted MRI.
 Our approach incorporates anatomical information in the form of a probabilistic prostate zone atlas and utilizes a dynamically controlled hyperparameter to combine the atlas with the semantic segmentation result.
 In addition to providing significantly improved segmentation performance, this hyperparameter is capable of being dynamically adjusted during the inference stage to provide users with a mechanism to refine the segmentation. 
-We validate our approach using an external test dataset and demonstrate Dice similarity coefficient values (mean $\pm $ SD) of 0.91 $\pm $ 0.05 for the CG and 0.77 $\pm $ 0.16 for the PZ that significantly improves upon the baseline segmentation results without the atlas.
+We validate our approach using an external test dataset and demonstrate Dice similarity coefficient values (mean $\pm$ SD) of 0.91 $\pm$ 0.05 for the CG and 0.77 $\pm$ 0.16 for the PZ that significantly improves upon the baseline segmentation results without the atlas.
 
 
 ![Example Segmentation Results](/resources/images/SegmentationExamples.png "CG and PZ segmentation results.")
+
+### Example of adjusting the atlas weighting parameter (λ) in real-time during inference 
+
+
+https://user-images.githubusercontent.com/58924114/179842155-7f4b4087-ab88-4b5e-b1e4-599328d6bf78.mp4
+
+
 
 ## Author information
 
