@@ -2,8 +2,11 @@
 
 Jiazhen Zhang<sup>1</sup>; Rajesh Venkataraman<sup>5</sup>, Ph.D.; Lawrence H. Staib<sup>1,3,4</sup>, Ph.D.; John A. Onofrey<sup>1,2,4</sup>, Ph.D.
 
+[[Paper Link](https://link.springer.com/chapter/10.1007/978-3-031-16443-9_55)]
+
+
 [Cite this article](#cite-this-article)
-to do
+
 
 ## Abstract
 
@@ -39,7 +42,15 @@ https://user-images.githubusercontent.com/58924114/179842155-7f4b4087-ab88-4b5e-
 <sup>5</sup>  Eigen Health, Grass Valley, CA, USA
 
 ## Cite this article
-to do
+    @inproceedings{zhang2022atlas,
+      title={Atlas-Based Semantic Segmentation of Prostate Zones},
+      author={Zhang, Jiazhen and Venkataraman, Rajesh and Staib, Lawrence H and Onofrey, John A},
+      booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+      pages={570--579},
+      year={2022},
+      organization={Springer}
+    }
+
 
 ### DOI
-to do
+https://doi.org/10.1007/978-3-031-16443-9_55
